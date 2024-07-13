@@ -35,6 +35,29 @@
     .auto-type-text {
         font-size: 28px;
     }
+    /* about me responsive */
+    .about-me{
+        gap: 35px;
+        display: block;
+        margin-top: 30px;
+    }
+    .info-box .info-title{
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 16px;
+        width: 110px;
+    }
+    .about-right,
+    .about-left{
+        width: 100%;
+    }
+    .about-right{
+        margin-top: 60px;
+    }
+    .about-left{
+     display: none;
+         
+    }
 
 }
 
@@ -75,6 +98,28 @@
     }
     .auto-type-text {
         font-size: 28px;
+    }
+    /* about me responsive */
+    .about-me{
+        gap: 35px;
+        display: block;
+        margin-top: 30px;
+    }
+    .info-box .info-title{
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 16px;
+        width: 110px;
+    }
+    .about-right,
+    .about-left{
+        width: 100%;
+    }
+    .about-right{
+        margin-top: 60px;
+    }
+    .about-left{
+        display: none;
     }
 
 }

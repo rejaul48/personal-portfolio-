@@ -49,7 +49,11 @@
 .text-secondary {
     color: #FFBD39;
 }
-
+.text-description2{
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.4;
+}
 .text-description {
     color: #828282;
     opacity: 0.7;
@@ -112,7 +116,9 @@ nav {
 }
 
 .hero-left,
-.hero-right {
+.hero-right,
+.about-left,
+.about-right {
     width: calc(50% - 15px);
 }
 
@@ -164,3 +170,33 @@ nav {
 }
 
 /* header section style end */
+
+/* main section style start*/
+.about-me{
+    gap: 35px;
+    margin-top: 80px;
+}
+.about-me-img img{
+    width: 100%;
+}
+.section-description{
+    padding: 25px 0px;
+}
+
+.info-box{
+    gap: 45px;
+    padding: 8px 0px;
+}
+.info-box .info-title{
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 29px;
+    width: 140px;
+}
+.info-box p > a{
+    color: #ffffff;
+}
+.about-right h3{
+    margin: 45px 0px 25px 0px;
+}
+/* main section style end*/
