@@ -200,7 +200,7 @@
 
     /* hero section */
     .dev-img-container{
-        height: 44vh;
+        height: 62vh;
     }
     .hero-dev-name{
         font-size: 23px;
@@ -241,3 +241,10 @@
 }
 
 /* md to xl device responsive style end  */
+
+/* xxl device responsive */
+@media screen and (min-width: 1200px) and (max-width: 1450px) {
+    .dev-img-container{
+        height: 58vh;
+    }
+}
