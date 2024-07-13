@@ -8,3 +8,66 @@
     font-family: "Poppins", sans-serif;
 }
 /* universal css */
+
+/* shared style start*/
+.container{
+    width: 85vw;
+    height: auto;
+    margin: 0 auto;
+    
+}
+.d-flex{
+    display: flex;
+}
+.justify-center{
+    justify-content: center;
+}
+.justify-between{
+    justify-content: space-between;
+}
+.align-center{
+    align-items: center;
+}
+.text-center{
+    text-align: center;
+}
+.text-primary{
+    color: #FFFFFF;
+}
+.text-secondary{
+    color: #FFBD39;
+}
+.bg-secondary{
+    background-color: #FFBD39;
+}
+.d-none{
+    display: none;
+}
+/* shared style end*/
+
+/* header section style start */
+header{
+    background: #000000;
+}
+.web-logo h2 a{
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 29px;
+}
+nav{
+    padding-top: 25px;
+}
+.menubar ul{
+    gap: 24px;
+}
+.menubar ul li a{
+    padding: 12px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 29px;
+
+}
+.hambar i{
+    font-size: 28px;
+}
+/* header section style end */

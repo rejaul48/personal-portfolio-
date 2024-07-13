@@ -1,0 +1,59 @@
+/* mobile responsive style start */
+
+@media screen and (max-width: 576px) {
+
+    /* header seciton */
+    .menubar {
+        display: none;
+    }
+
+    .hambar {
+        display: block ;
+    }
+
+}
+
+/* mobile responsive style end */
+
+/* tablate responsive style start */
+@media screen and (min-width: 576px) and (max-width: 768px) {
+
+    /* header seciton */
+    .menubar {
+        display: none;
+    }
+
+    .hambar {
+        display: block ;
+    }
+
+}
+
+/* tablate responsive style end */
+
+/* md to xl device responsive style start  */
+@media screen and (min-width: 768px) and (max-width: 992px) {
+
+    .menubar ul{
+        gap: 2px;
+    }
+   .menubar ul li a{
+    font-size: 14px;
+    padding: 8px;
+   }
+ 
+
+}
+/* md to xl device responsive style end  */
+
+/* md to xl device responsive style start  */
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+
+    .menubar ul{
+        gap: 5px;
+    }
+  
+ 
+
+}
+/* md to xl device responsive style end  */
