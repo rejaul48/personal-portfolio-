@@ -148,8 +148,13 @@
     .about-right{
         margin-top: 60px;
     }
+  
     .about-left{
         display: none;
+    }
+    /* resume */
+    .resume-box-container{
+        grid-template-columns: repeat(1, 1fr);
     }
     .resume-box{
         width: 100%;
@@ -195,7 +200,7 @@
 
     /* hero section */
     .dev-img-container{
-        height: 60vh;
+        height: 44vh;
     }
     .hero-dev-name{
         font-size: 23px;
@@ -203,7 +208,11 @@
     .auto-type-text{
         font-size: 28px;
     }
+
+    /* about me */
+    
     /* resume */
+   
     .section-description2{
         width: 90%;
     }
