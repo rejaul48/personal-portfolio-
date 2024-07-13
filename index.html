@@ -19,10 +19,11 @@
     <link rel="stylesheet" href="css/responsive.css">
 </head>
 
-<body>
+<body style=" background: #000000;">
 
     <!-- header section start  -->
-     <header>
+    <header>
+
         <nav class="container d-flex justify-between">
 
             <div class="web-logo">
@@ -39,10 +40,10 @@
                     <li><a href="#" class="menu-link text-primary">Projects</a></li>
                     <li><a href="#" class="menu-link text-primary">By Blog</a></li>
                     <li><a href="#" class="menu-link text-primary">Contact</a></li>
-                     
+
                 </ul>
             </div>
-            
+
             <div class="hambar-icon ">
                 <a href="#" class="hambar d-none ">
                     <i class="fa-solid fa-bars text-primary"></i>
@@ -50,10 +51,45 @@
             </div>
 
         </nav>
-     </header>
-    <!-- header section end  -->
- 
 
-</body>
+        <div class="container hero-section d-flex">
+
+            <div class="hero-left">
+                <span class="text-primary hello-text text text-secondary">HELLO!</span>
+                <h2 class="text-primary hero-dev-name">I'm Reja<span class="text-secondary">ul Islam</span></h2>
+                <h1 class="text-primary auto-type-text autotype-text"></h1>
+                <p class="text-description">Passionate developer with expertise in web and mobile applications. Skilled
+                    in JavaScript, React, and Python. Dedicated to creating efficient, user-friendly solutions and
+                    continuously learning new technologies.
+                </p>
+                <a href="#" class="btn-primary text-dark">Hire Me</a> <a href="#"
+                    class="btn-primary text-primary btn-my-works">My Works</a>
+            </div>
+
+            <div class="hero-right">
+                <div class="dev-img-container d-flex align-center">
+
+                </div>
+            </div>
+
+        </div>
+
+    </header>
+    <!-- header section end  -->
+
+
+    <!-- header auto type text js link-->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        let typed = new Typed(".autotype-text", {
+            strings: [ "DEVELOPER","Front-End-DESIGNER", "Full stack Learner"],
+            typeSpeed: 80,
+            backSpeed: 50,
+            loop: true
+
+        });
+    </script>
+
+</body> <br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 </html>

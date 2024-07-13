@@ -8,7 +8,32 @@
     }
 
     .hambar {
-        display: block ;
+        display: block;
+    }
+
+    /* hero section */
+    .hero-section {
+        display: block;
+    }
+
+    .hero-left,
+    .hero-right {
+        width: 100%;
+    }
+
+    .hero-left {
+        margin-top: 75px;
+    }
+
+    .hero-right {
+        margin-top: 35px;
+    }
+    .dev-img-container{
+        height: 40vh;
+    }
+
+    .auto-type-text {
+        font-size: 28px;
     }
 
 }
@@ -24,7 +49,32 @@
     }
 
     .hambar {
-        display: block ;
+        display: block;
+    }
+
+    /* hero section */
+    .hero-section {
+        display: block;
+    }
+
+    .hero-left,
+    .hero-right {
+        width: 100%;
+    }
+
+    .hero-left {
+        margin-top: 75px;
+    }
+
+    .hero-right {
+        margin-top: 35px;
+    }
+    .dev-img-container{
+        height: 40vh;
+     
+    }
+    .auto-type-text {
+        font-size: 28px;
     }
 
 }
@@ -34,26 +84,41 @@
 /* md to xl device responsive style start  */
 @media screen and (min-width: 768px) and (max-width: 992px) {
 
-    .menubar ul{
+    .menubar ul {
         gap: 2px;
     }
-   .menubar ul li a{
-    font-size: 14px;
-    padding: 8px;
-   }
- 
+
+    .menubar ul li a {
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    /* hero section */
+    .dev-img-container{
+        height: 100vh;
+        /* margin-top: 45px; */
+    }
+    .hero-dev-name{
+        font-size: 23px;
+    }
+    .auto-type-text{
+        font-size: 28px;
+    }
+
 
 }
+
 /* md to xl device responsive style end  */
 
 /* md to xl device responsive style start  */
 @media screen and (min-width: 992px) and (max-width: 1200px) {
 
-    .menubar ul{
+    .menubar ul {
         gap: 5px;
     }
-  
- 
+
+
 
 }
+
 /* md to xl device responsive style end  */

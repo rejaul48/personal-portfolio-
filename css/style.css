@@ -1,5 +1,5 @@
 /* universal css */
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -7,67 +7,160 @@
     list-style-type: none;
     font-family: "Poppins", sans-serif;
 }
+
 /* universal css */
 
 /* shared style start*/
-.container{
+.container {
     width: 85vw;
     height: auto;
     margin: 0 auto;
-    
+
 }
-.d-flex{
+
+.d-flex {
     display: flex;
 }
-.justify-center{
+
+.justify-center {
     justify-content: center;
 }
-.justify-between{
+
+.justify-between {
     justify-content: space-between;
 }
-.align-center{
+
+.align-center {
     align-items: center;
 }
-.text-center{
+
+.text-center {
     text-align: center;
 }
-.text-primary{
+
+.text-primary {
     color: #FFFFFF;
 }
-.text-secondary{
+
+.text-dark {
+    color: rgb(22, 22, 22);
+}
+
+.text-secondary {
     color: #FFBD39;
 }
-.bg-secondary{
+
+.text-description {
+    color: #828282;
+    opacity: 0.7;
+    padding: 15px 0px;
+}
+
+.bg-secondary {
     background-color: #FFBD39;
 }
-.d-none{
+
+.d-none {
     display: none;
 }
+
+.btn-primary {
+    display: inline-block;
+    padding: 15px 32px;
+    border-radius: 25px;
+    background: #FFBD39;
+    font-size: 16px;
+    font-weight: 400;
+}
+
 /* shared style end*/
 
 /* header section style start */
-header{
-    background: #000000;
+header {
+    padding-bottom: 45px;
 }
-.web-logo h2 a{
+
+.web-logo h2 a {
     font-size: 32px;
     font-weight: 800;
     line-height: 29px;
 }
-nav{
+
+nav {
     padding-top: 25px;
 }
-.menubar ul{
+
+.menubar ul {
     gap: 24px;
 }
-.menubar ul li a{
+
+.menubar ul li a {
     padding: 12px;
     font-size: 16px;
     font-weight: 400;
     line-height: 29px;
 
 }
-.hambar i{
+
+.hambar i {
     font-size: 28px;
 }
+
+/* hero section */
+.hero-section {
+    gap: 15px;
+}
+
+.hero-left,
+.hero-right {
+    width: calc(50% - 15px);
+}
+
+.hero-left {
+    margin-top: 110px;
+}
+
+.hello-text {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 25px;
+}
+
+.hero-dev-name {
+    font-size: 28px;
+    font-weight: 800;
+
+}
+
+.auto-type-text {
+    font-size: 32px;
+    font-weight: 900;
+    margin: 34px 0px 0px 0px;
+    letter-spacing: 0.8px;
+    height: 70px;
+    /* background: red; */
+    display: flex;
+    align-items: center;
+    border-top: 2px solid #FFBD39;
+    border-bottom: 2px solid #FFBD39;
+}
+
+.hero-left a {
+    margin: 15px 10px 0px 0px;
+}
+
+.btn-my-works {
+    background: none;
+    border: 1px solid rgb(233, 230, 230);
+}
+
+.dev-img-container {
+    background-image: url(../images/developer-img.png);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
 /* header section style end */
