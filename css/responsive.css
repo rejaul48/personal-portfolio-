@@ -29,7 +29,7 @@
         margin-top: 35px;
     }
     .dev-img-container{
-        height: 40vh;
+        height: 60vh;
     }
 
     .auto-type-text {
@@ -52,12 +52,33 @@
         width: 100%;
     }
     .about-right{
-        margin-top: 60px;
+        margin-top: 20px;
     }
     .about-left{
      display: none;
          
     }
+
+    /* resume style */
+    .section-description2{
+        width: 100%;
+    }
+    .resume-box-container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .resume-box h2{
+        font-size: 28px;
+    }
+    .resume-box h3{
+        font-size: 20px;
+     
+    }
+    .resume-box .resume-description{
+        font-size: 14px;
+         
+    }
+    
 
 }
 
@@ -86,20 +107,24 @@
     }
 
     .hero-left {
-        margin-top: 75px;
+        margin-top: 85px;
+        
     }
 
     .hero-right {
-        margin-top: 35px;
+        margin-top: 75px;
     }
     .dev-img-container{
-        height: 40vh;
-     
+        height: 70vh;
     }
+  
     .auto-type-text {
         font-size: 28px;
     }
     /* about me responsive */
+    .section-description2{
+        width: 90%;
+    }
     .about-me{
         gap: 35px;
         display: block;
@@ -121,6 +146,27 @@
     .about-left{
         display: none;
     }
+    .resume-box{
+        width: 100%;
+        height: 350px;
+        overflow: hidden;
+    }
+    .resume-box h2{
+        font-size: 29px;
+        line-height: 24px;
+       
+    }
+    .resume-box h3{
+        font-size: 18px;
+        font-weight: 400;
+    }
+    .resume-box .certification-from{
+        font-size: 12px;
+    }
+    .resume-box .resume-description{
+        font-size: 15px;
+        line-height: 23px;
+    }
 
 }
 
@@ -140,14 +186,17 @@
 
     /* hero section */
     .dev-img-container{
-        height: 100vh;
-        /* margin-top: 45px; */
+        height: 60vh;
     }
     .hero-dev-name{
         font-size: 23px;
     }
     .auto-type-text{
         font-size: 28px;
+    }
+    /* resume */
+    .section-description2{
+        width: 90%;
     }
 
 
@@ -160,6 +209,9 @@
 
     .menubar ul {
         gap: 5px;
+    }
+    .dev-img-container{
+        height: 45vh;
     }
 
 
